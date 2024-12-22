@@ -17,4 +17,37 @@
   padding-left: 200px;
   margin-left: 200px;
  margin-bottom: 80px;
+ 
 }
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  
+  
+}
+.footer {
+  background-color: #f8f9fa; /* Bootstrap light gray */
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  
+}
+main {
+  flex: 1; /* Allow main to grow and push footer down */
+display:'flex'
+}
+
