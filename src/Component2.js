@@ -1,8 +1,13 @@
 import React from 'react';
 import bgImage from './bg.jpg';
+
 function Component2() {
   return (
-    <div className="d-flex align-items-center justify-content-center"
+
+
+
+
+    <div className="d-flex align-items-center justify-content-center content"
       style={{
         backgroundImage: `url(${bgImage})`, // Replace with your image URL
         display: 'flex',
@@ -12,8 +17,8 @@ function Component2() {
         textAlign: 'center',
         backgroundSize: 'cover',
   backgroundPosition: 'top', 
-  width:'100%',
-  height: '450px',
+ 
+  height: '475px',
   
       }}
     >
