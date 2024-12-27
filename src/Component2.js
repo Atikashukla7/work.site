@@ -1,12 +1,14 @@
 import React from 'react';
 import bgImage from './bg.jpg';
-
+//import { Image } from 'react-bootstrap';
 function Component2() {
   return (
 
+<div>
 
 
 
+  
     <div className="d-flex align-items-center justify-content-center content"
       style={{
         backgroundImage: `url(${bgImage})`, // Replace with your image URL
@@ -41,6 +43,7 @@ function Component2() {
           Sign Up Today
         </button>
       </div>
+    </div>
     </div>
   );
 }
