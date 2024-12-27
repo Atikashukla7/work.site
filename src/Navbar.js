@@ -24,10 +24,10 @@ const MyNavbar = () => {
           {/* Navbar Links (collapses on smaller screens) */}
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Link to="#products" className="nav-link">PRODUCTS</Link>
-              <Link to="#customers" className="nav-link">CUSTOMERS</Link>
-              <Link to="#gettingstarted" className="nav-link">GETTING STARTED</Link>
-              <Link to="#resources" className="nav-link">RESOURCES</Link>
+              <Link  to="/products" className="nav-link">PRODUCTS</Link>
+              <Link to="/customers" className="nav-link">CUSTOMERS</Link>
+              <Link to="/gettingstarted" className="nav-link">GETTING STARTED</Link>
+              <Link to="/resources" className="nav-link">RESOURCES</Link>
             </Nav>
             
             {/* Buttons on the right side (in the collapsed menu on smaller screens) */}
